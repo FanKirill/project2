@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all-group-text{
+    font-weight: 700; 
+    font-size: 52px; 
+    color: black;
+    font-family: "Montserrat";
+}

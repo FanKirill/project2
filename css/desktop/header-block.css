@@ -1,0 +1,429 @@
+/* =======================================-HEADER-BLOCK-======================================= */
+
+.header-block{
+    background-color: #666;
+    min-height: 70vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-block_video{
+    filter: brightness(20%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    
+}
+
+.header-block::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.header-block_panel{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+
+    display: grid;
+    place-items: center;
+}
+
+.header-block_nav{
+    display: flex;
+    align-items: center;
+
+    margin: 1rem;
+}
+
+.header-block_nav a{
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.header-block_nav a:hover{
+    text-decoration: underline; 
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px; 
+    /* color: #F14D34; */
+    color: red;
+
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    gap: 1.5rem;
+}
+
+.header-block_logo{
+    float: left;
+
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+
+.header-block_title-text-link{
+    text-align: center;
+}
+
+.header-block_title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 1.2;
+
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+
+.header-block_text{
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+    font-optical-sizing: auto;
+    font-style: 400;
+
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 6rem;
+
+} 
+
+
+.header-block_link{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+
+    border-radius: 10px;
+    border: 2px solid #3303e0;
+
+    font-weight: 300;
+    font-size: 25px;
+    padding: 40px 100px;
+    margin-top: 4rem;
+}
+
+
+.header-block_link:hover{
+    background-color: #ac34f1;
+}
+
+
+.header-block_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-block_about-all{
+    margin-top: 250px;
+}
+
+
+.header-block_one, 
+.header-block_two{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-block_a, 
+.header-block_b, 
+.header-block_c, 
+.header-block_d, 
+.header-block_e, 
+.header-block_f{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.header-block_vertical-line-one, 
+.header-block_vertical-line-two, 
+.header-block_vertical-line-three, 
+.header-block_vertical-line-four, 
+.header-block_vertical-line-five, 
+.header-block_vertical-line-six{
+    background-color: #3303e0;
+    height: 150px; 
+    width: 5px;  
+    border-radius: 5px;
+}
+
+.header-block_vertical-line-one_img-text {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img-header{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 65px;
+}
+
+.header-block_vertical-line-one_img-text, 
+.header-block_vertical-line-one_text{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-bottom: 140px;
+    margin-top: -150px;
+}
+
+.header-block_vertical-line-two_text-1, 
+.header-block_vertical-line-two_text-2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-bottom: 120px;
+    margin-top: -140px;
+    margin-right: 100px;
+}
+
+
+.header-block_vertical-line-three_text-1, 
+.header-block_vertical-line-three_text-2{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 130px;
+    margin-top: -140px;
+}
+
+.header-block_vertical-line-four_text-1, 
+.header-block_vertical-line-four_text-2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    margin-top: -140px;
+    margin-right: 96px;
+}
+
+.header-block_vertical-line-five_text-1, 
+.header-block_vertical-line-five_text-2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-bottom: 145px;
+    margin-top: -145px;
+    margin-right: 120px;
+} 
+
+.header-block_vertical-line-six_text-1, 
+.header-block_vertical-line-six_text-2{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    margin-top: -160px;
+}
+
+.header-block_vertical-line-six{
+    margin-top: -50px;
+}
+
+
+.header-block_f{
+    margin-top: 20px;
+}
+
+
+.header-block_vertical-line-one-group{
+}
+
+.header-block_vertical-line-two-group{
+
+}
+
+.header-block_vertical-line-three-group{
+
+}
+
+.header-block_vertical-line-four-group{
+    padding-bottom: 25px;
+}
+
+.header-block_vertical-line-five-group{
+
+}
+
+.header-block_vertical-line-six-group{
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4932cd;
+  min-width: 15rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+@media screen and (min-device-width: 992px){
+
+    .header-block_link{
+        font-size: 20px;
+        padding: 30px 60px;
+    }
+
+    .header-block_main{
+        display: flex;
+    }
+
+    .header-block_panel{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-block_nav a{
+        font-size: 18px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .header-block_title-text-link{
+        text-align: left;
+        margin-right: 10rem;
+    }
+
+
+    .header-block_about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-block_one, 
+    .header-block_two{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-block_vertical-line-one, 
+    .header-block_vertical-line-two, 
+    .header-block_vertical-line-three, 
+    .header-block_vertical-line-four, 
+    .header-block_vertical-line-five, 
+    .header-block_vertical-line-six{
+        height: 100px; 
+    }
+
+
+    .header-block_vertical-line-one_img-text, 
+    .header-block_vertical-line-one_text{
+        margin-top: -140px;
+        font-size: 15px;
+    }
+
+    .header-block_vertical-line-two_text-1, 
+    .header-block_vertical-line-two_text-2{
+        font-size: 15px;
+        padding-bottom: 110px;
+        margin-top: -120px;
+    }
+
+
+    .header-block_vertical-line-three_text-1, 
+    .header-block_vertical-line-three_text-2{
+        font-size: 15px;
+        padding-bottom: 100px;
+        margin-top: -115px;
+    }
+
+    .header-block_vertical-line-four_text-1, 
+    .header-block_vertical-line-four_text-2{
+        padding-bottom: 120px;
+        margin-top: -115px;
+        font-size: 15px;
+    }
+
+    .header-block_vertical-line-five_text-1, 
+    .header-block_vertical-line-five_text-2{
+        font-size: 15px;
+        padding-bottom: 100px;
+        margin-top: -115px;
+    } 
+
+    .header-block_vertical-line-six_text-1, 
+    .header-block_vertical-line-six_text-2{
+        font-size: 15px;
+        padding-bottom: 110px;
+        margin-top: -120px;
+    }
+
+    .header-block_vertical-line-six{margin-top: -50px;}
+
+
+    .header-block_f{margin-top: 20px;}
+
+    .header-block_vertical-line-one-group{margin-right: 6.7rem;}
+
+    .header-block_vertical-line-two-group{}
+    .header-block_vertical-line-three-group{}
+
+    .header-block_vertical-line-four-group{ padding-bottom: 25px;}
+
+    .header-block_vertical-line-five-group{
+}
+
+    .header-block_vertical-line-six-group{margin-top: 1.8rem;}
+}

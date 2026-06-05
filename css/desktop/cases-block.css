@@ -1,0 +1,176 @@
+/* =======================================-CASE-BLOCK-======================================= -*/
+
+.cases-block{
+    margin-bottom: 10rem;
+}
+
+.g{
+    font-family: "Montserrat";
+    color: #050c33;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.case-date{
+    font-family: "Montserrat";
+    color: #050c33;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.g1{
+    font-family: "Montserrat";
+    color: #050c33;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.h{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+}
+
+.h1{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    color: #050c33;
+}
+
+.hh{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+}
+
+.cases-block_group{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    place-items: center;
+}
+
+.cases-block_group-card1-line-one,
+.cases-block_group-card1-line-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img2{
+    width: 350px;
+    height: 350px;
+}
+
+.img3{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.img4{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cases-block_group-card1,
+.cases-block_group-card2,
+.cases-block_group-card3,
+.cases-block_group-card4{
+    padding: 8px;
+}
+
+
+.text-overlay{
+  position: absolute;
+  margin-top: -22rem;
+  margin-left: 1rem;
+}
+
+@media screen and (min-device-width: 992px){
+    .cases-block{
+        margin-bottom: 10rem;
+    }
+
+    .g{
+        font-size: 14px;
+    }
+
+    .case-date{
+        font-size: 13px;
+    }
+
+    .g1{
+        font-size: 12px;
+    }
+
+    .h{
+        font-size: 12px;
+    }
+
+    .h1{
+        font-size: 14px;
+    }
+
+    .hh{
+        font-size: 14px;
+    }
+
+    .cases-block_group{
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        place-items: center;
+    }
+
+    .cases-block_group-card1-line-one,
+    .cases-block_group-card1-line-two{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img1{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .img2{
+        width: 350px;
+        height: 350px;
+    }
+
+    .img3{
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .img4{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .cases-block_group-card1,
+    .cases-block_group-card2,
+    .cases-block_group-card3,
+    .cases-block_group-card4{
+        padding: 8px;
+    }
+
+
+    .text-overlay{
+    margin-top: -22rem;
+    margin-left: 1rem;
+    }
+}

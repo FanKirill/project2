@@ -1,0 +1,102 @@
+/* =======================================-SERVICES-BLOCK-======================================= */
+.services-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 8rem;
+}
+.services-block_adv2{
+    margin-top: 4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #050c33;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services-block_adv2-line-one, 
+.services-block_adv2-line-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-block_adv2-line-one img, 
+.services-block_adv2-line-two img{
+ width: 200px;
+}
+
+.services-block_adv2-line-one p, 
+.services-block_adv2-line-two p{
+    font-size: 36px;
+}
+
+.services-block_adv2-line-two{
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+
+.services-block_text{
+    margin-left: 2rem;
+}
+
+.services-block_text-p{
+    color: black;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    font-size: 36px;
+    margin-top: 1rem;
+}
+
+
+
+
+
+@media screen and (min-device-width: 992px){
+    .services-block_adv2{
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        place-items: center;
+    }
+
+    .services-block_adv2-line-one, 
+    .services-block_adv2-line-two{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+    }
+
+    .services-block_adv2-line-one img, 
+    .services-block_adv2-line-two img{
+        width: 100px;
+    }
+
+    .services-block_adv2-line-one p, 
+    .services-block_adv2-line-two p{
+        font-size: 14px;
+    }
+
+    .services-block_adv2-line-two{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+
+    .services-block_text-p{
+        font-size: 18px;
+    }
+
+    .services-block_adv2-line-one_text-icon2-1,
+    .services-block_adv2-line-one_text-icon2-2,
+    .services-block_adv2-line-one_text-icon2-3,
+    .services-block_adv2-line-one_text-icon2-4,
+    .services-block_adv2-line-one_text-icon2-5,
+    .services-block_adv2-line-one_text-icon2-6,
+    .services-block_adv2-line-one_text-icon2-7,
+    .services-block_adv2-line-one_text-icon2-8{
+        margin-right: 4rem;
+    }
+}

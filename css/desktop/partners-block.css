@@ -1,0 +1,69 @@
+/* =======================================-PARTNERS-BLOCK-======================================= -*/
+
+.partners-block_text{
+    text-align: center; 
+    margin-bottom: 5rem;
+}
+
+.partners-block_text-p{
+    font-weight: 400; 
+    font-size: 16px; 
+    color: #050c33; 
+    font-family: "Montserrat", sans-serif;
+    
+    margin-top: 1rem;
+}
+
+.partners-block_img-group{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10rem;
+}
+
+.partners-block_img-group-one{
+    margin-bottom: 3rem;
+}
+
+.partners-block_img-group-one,
+.partners-block_img-group-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.marquee-image{
+    transform: scale(2); 
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+@media screen and (min-device-width: 992px){
+    .partners-block_text-p{ 
+        font-size: 18px; 
+        
+        margin-top: 1rem;
+    }
+
+    .partners-block_img-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .partners-block_img-group-one{
+        margin-bottom: 2rem;
+    }
+
+    .partners-block_img-group-one,
+    .partners-block_img-group-two{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .marquee-image{
+        transform: scale(1); 
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}

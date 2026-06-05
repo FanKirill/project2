@@ -1,0 +1,329 @@
+/* =======================================-PLAN-BLOCK-======================================= */
+
+.plan-block_card-block-ph1{
+    color: black;
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 55px;
+}
+
+.plan-block_card-block-ph2{
+    color: black;
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 82px;
+}
+
+.plan-block_card-block-ph3{
+    color: #050c33; 
+    font-family: "Montserrat"; 
+    font-weight: 500; 
+    font-size: 48px;
+}
+
+.plan-block_card-block-ph4{
+    color: #050c33; 
+    font-family: "Montserrat"; 
+    font-weight: 500; 
+    font-size: 38px;
+}
+
+.plan-block_card-block_card1-text,
+.plan-block_card-block_card2-text,
+.plan-block_card-block_card3-text{
+    font-family: "Montserrat";
+    color: #050c33;
+    font-size: 28px;
+
+    margin-top: 2rem;
+}
+
+.plan-block_card-block_card1-text li,
+.plan-block_card-block_card2-text li,
+.plan-block_card-block_card3-text li{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.plan-block{
+    margin-top: 10rem;
+}
+
+.plan-block_card-block{
+    display: flex;
+    flex-direction: column;
+
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+}
+
+.plan-block_card-block_card1, 
+.plan-block_card-block_card2, 
+.plan-block_card-block_card3 {
+    background-color: #0363e0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    
+    margin-right: 4rem;
+    width: 80%;
+    height: 650px;
+}
+
+.plan-block_card-block_card1:hover, 
+.plan-block_card-block_card2:hover,
+.plan-block_card-block_card3:hover {
+    transform: scale(1.05);
+}
+
+.card1-content, 
+.card2-content, 
+.card3-content {
+    padding: 20px;
+}
+
+.plan-block_text{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.plan-block_text-p{
+    color: #050c33; 
+    font-family: "Montserrat"; 
+    font-weight: 500; 
+    font-size: 29px;
+}
+
+.plan-block_text-a{
+    color: #050c33; 
+    font-family: "Montserrat"; 
+    font-weight: 500; 
+    font-size: 14px;
+}
+
+.plan-block_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 10rem;
+}
+
+.plan-block_about-group-text{
+    display: flex; 
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.plan-block_about-group{
+    display: flex;
+    flex-direction: column;
+
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+
+.plan-block_about-group-1,
+.plan-block_about-group-2,
+.plan-block_about-group-3{
+    width: 350px;
+    height: 150px;
+}
+
+
+.plan-block_about-h1,
+.plan-block_about-p{
+    font-family: "Montserrat", sans-serif;
+    color: #050c33; 
+}
+
+.plan-block_about-img{
+    width: 80%;
+}
+
+.plan-block_about-h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.plan-block_about-p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+.plan-block_link{
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background-color: #F14D34;
+    color: #FFFFFF;
+
+    position: absolute;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    border-radius: 5px;
+    border: 2px solid #F14D34;
+
+    font-weight: 500;
+    font-size: 26px;
+    padding: 20px 60px;
+    margin-top: 7rem;
+}
+
+.plan-block_link:hover{
+    color: #F14D34;
+    background-color: #FFF;
+}
+
+.plan-block_link-group{
+    margin-top: 1rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+@media screen and (min-device-width: 992px){
+
+    .plan-block_card-block-ph1{
+        font-weight: 700; 
+        font-size: 30px;
+    }
+
+    .plan-block_card-block-ph2{
+        font-size: 52px;
+    }
+
+    .plan-block_card-block-ph3{
+        font-size: 28px;
+    }
+
+    .plan-block_card-block-ph4{
+        font-size: 28px;
+    }
+
+    .plan-block_card-block_card1-text,
+    .plan-block_card-block_card2-text,
+    .plan-block_card-block_card3-text{
+        font-size: 18px;
+        margin-top: 4rem;
+    }
+
+    .plan-block_card-block_card1-text li,
+    .plan-block_card-block_card2-text li,
+    .plan-block_card-block_card3-text li{
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    .plan-block{
+        margin-top: 10rem;
+    }
+
+    .plan-block_card-block{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5rem;
+    }
+
+    .plan-block_card-block_card1, 
+    .plan-block_card-block_card2, 
+    .plan-block_card-block_card3 {
+        
+        margin-right: 4rem;
+        width: 80%;
+        height: 750px;
+    }
+
+    .card1-content, 
+    .card2-content, 
+    .card3-content {
+        padding: 20px;
+    }
+
+    .plan-block_text{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .plan-block_text-p{
+        font-size: 19px;
+    }
+
+    .plan-block_text-a{
+        font-size: 14px;
+    }
+
+    .plan-block_about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 10rem;
+    }
+
+    .plan-block_about-group-text{
+        display: flex; 
+        justify-content: left; 
+        margin-left: 15rem;
+    }
+
+    .plan-block_about-group{
+        display: flex;
+        flex-direction: row;
+
+        min-height: 40vh;
+        margin-left: 14rem;
+    }
+
+    .plan-block_about-group-1,
+    .plan-block_about-group-2,
+    .plan-block_about-group-3{
+        width: 250px;
+        height: 150px;
+    }
+
+    .plan-block_about-group-2,
+    .plan-block_about-group-3{
+        width: 250px;
+        height: 150px;
+        margin-left: 10rem;
+    }
+
+
+    .plan-block_about-img{
+        width: 50%;
+    }
+
+    .plan-block_about-h1{
+        font-size: 3rem;
+    }
+
+    .plan-block_about-p{
+        font-size: 1rem;
+    }
+
+
+    .plan-block_link{
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+
+    .plan-block_link:hover{
+        color: #F14D34;
+        background-color: #FFF;
+    }
+
+    .plan-block_link-group{
+        margin-top: 15rem;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+}

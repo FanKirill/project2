@@ -1,0 +1,118 @@
+/* =======================================-TEAM-BLOCK-======================================= */
+
+.team-block{
+    margin-top: 16rem;
+    margin-bottom: 10rem;
+    display: grid;
+    place-items: center;
+}
+
+.team-block_group{
+    display: flex;
+    flex-direction: row;
+}
+
+.team-block_group-line-one,
+.team-block_group-line-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-block_group-line-one{
+    margin-bottom: 7rem;
+}
+
+.team-block_group-line-one_text-img{
+    height: 300px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 18rem;
+}
+
+.team-block_group-line-one_text-img img{
+    width: 400px;
+}
+
+.team-block_text-h1{
+    font-family: "Montserrat";
+    color: black;
+
+    font-size: 34px;
+    font-weight: 700;
+
+    line-height: 2;
+}
+
+.team-block_text-p{
+    font-family: "Montserrat";
+    color: black;
+
+    font-size: 26px;
+    font-weight: 400;
+
+    line-height: 1.5;
+}
+
+.team-block_button{
+    font-family: "Montserrat";
+    color: black;
+    background-color: #eee;
+    cursor: pointer;
+
+    padding: 20px;
+    width: 230px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: #F14D34;
+    color: #FFF;
+}
+
+@media screen and (min-device-width: 992px){
+    .team-block{
+        margin-top: 16rem;
+        margin-bottom: 10rem;
+        display: flex;
+        display: grid;
+        place-items: center;
+    }
+
+    .team-block_group{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-block_group-line-one,
+    .team-block_group-line-two{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-block_group-line-one{
+        margin-bottom: 7rem;
+    }
+
+    .team-block_group-line-one_text-img{
+        height: 300px;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width:  300px;
+    }
+
+    .team-block_group-line-one_text-img img{
+        width: auto;
+    }
+
+    .team-block_text-h1{ 
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .team-block_text-p{
+        font-size: 16px;
+    }
+
+}
